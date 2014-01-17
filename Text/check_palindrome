@@ -1,0 +1,7 @@
+# Author: Drew Marschner
+# Date: 1/17/2014
+
+# Checks if the string entered is a palindrome or not (example: "racecar")
+
+def check_palindrome(string):
+	return string == string[::-1]
